@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include duallife *.css
+recursive-include duallife *.csv
+recursive-include duallife *.html
+recursive-include duallife *.ico
+recursive-include duallife *.js
+recursive-include duallife *.json
+recursive-include duallife *.md
+recursive-include duallife *.png
+recursive-include duallife *.py
+recursive-include duallife *.svg
+recursive-include duallife *.txt
+recursive-exclude duallife *.pyc
